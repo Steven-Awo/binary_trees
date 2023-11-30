@@ -31,7 +31,8 @@ bst_t *bst_insert(bst_t **tree, int value)
 	if (neww == NULL)
 		return (NULL);
 	return (currt->left = neww);
-	}if (value > currt->n) /* inserted from the right subtree */
+	}
+	if (value > currt->n) /* inserted from the right subtree */
 	{
 	if (currt->right != NULL)
 		return (bst_insert(&currt->right, value));
