@@ -67,8 +67,8 @@ int is_avl_helper(const binary_tree_t *tree, int lo, int hi)
  * binary_tree_is_avl - A function that checks if the binary tree
  * is actaually a valid AVL tree.
  * @tree: the root node's pointer of the tree
- * that's to be check for bfor e
- * Retrun: If valid AVL tree true, rreturn 1, otherwise,return 0.
+ * that's to be checked
+ * Return: 1 if true valid AVL tree, and return 0 otherwise
  */
 
 int binary_tree_is_avl(const binary_tree_t *tree)
