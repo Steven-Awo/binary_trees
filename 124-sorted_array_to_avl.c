@@ -3,7 +3,7 @@
 /**
  * create_tree - A function that uses recursion to create an AVL tree
  * @node: the node's pointer
- * @array: the int for the input array 
+ * @array: the int for the input array
  * @size: the array's size
  * @mode: to add to left return 1, to add to left return 2
  * Return: void
@@ -42,7 +42,7 @@ void create_tree(avl_t **node, int *array, size_t size, int mode)
 /**
  * sorted_array_to_avl - A function that just creates the roott node
  * and calls to just create_tree
- * @array: the int for the input array 
+ * @array: the int for the input array
  * @size: the array's size
  * Return: the roott's pointer
  */
